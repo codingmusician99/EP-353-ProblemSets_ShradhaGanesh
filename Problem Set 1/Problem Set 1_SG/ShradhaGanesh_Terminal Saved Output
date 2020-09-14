@@ -1,0 +1,61 @@
+Last login: Mon Sep 14 15:01:53 on ttys001
+Shradhas-MacBook-Pro-2:~ shradhaganesh$ pwd
+/Users/shradhaganesh
+Shradhas-MacBook-Pro-2:~ shradhaganesh$ cd Desktop/
+Shradhas-MacBook-Pro-2:Desktop shradhaganesh$ pwd
+/Users/shradhaganesh/Desktop
+Shradhas-MacBook-Pro-2:Desktop shradhaganesh$ cd .. 
+Shradhas-MacBook-Pro-2:~ shradhaganesh$ cd Documents/
+Shradhas-MacBook-Pro-2:Documents shradhaganesh$ ls
+BE Buttcracks
+BE SCORES
+Finale Files
+GitHub
+I-9.pdf
+Image-Line
+Max 8
+Mixing Audio Concepts, Practices and Tools TB.pdf
+My first protools project
+Native Instruments
+OMNIS.rtf
+Omnisphere_Software_Update_Mac_2_3_2f
+Pledge of Allegiance
+Pro Tools
+Reason Projects .reason
+SHIVA LEELAI FINAL
+Serum v1.038
+ShradhaGanesh_EP340_FinalProjectVideo.wav
+Spectrasonics BE
+W4.pdf
+WebEx
+Zoom
+code.py
+confidentiality.pdf
+hello.py
+iZotope
+payroll.pdf
+Shradhas-MacBook-Pro-2:Documents shradhaganesh$ cd GitHub/
+Shradhas-MacBook-Pro-2:GitHub shradhaganesh$ ls
+EP-353					EP-353-ProblemSets_ShradhaGanesh
+Shradhas-MacBook-Pro-2:GitHub shradhaganesh$ cd EP-353/
+Shradhas-MacBook-Pro-2:EP-353 shradhaganesh$ ls
+1.HelloWorld		LICENSE.md		README.md
+DOCUMENTATION.md	POLICY.md
+Shradhas-MacBook-Pro-2:EP-353 shradhaganesh$ cd 1.HelloWorld/
+Shradhas-MacBook-Pro-2:1.HelloWorld shradhaganesh$ ls
+1.GitHub		3.CStructure
+2.CommandLine+GCC	README.md
+Shradhas-MacBook-Pro-2:1.HelloWorld shradhaganesh$ cd 2.CommandLine+GCC/
+Shradhas-MacBook-Pro-2:2.CommandLine+GCC shradhaganesh$ xcode-select --install
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+Shradhas-MacBook-Pro-2:2.CommandLine+GCC shradhaganesh$ clang
+clang: error: no input files
+Shradhas-MacBook-Pro-2:2.CommandLine+GCC shradhaganesh$ ls
+HelloWorld.c		HelloWorld.c.save	README.md
+Shradhas-MacBook-Pro-2:2.CommandLine+GCC shradhaganesh$ clang HelloWorld.c
+Shradhas-MacBook-Pro-2:2.CommandLine+GCC shradhaganesh$ ls
+HelloWorld.c		README.md
+HelloWorld.c.save	a.out
+Shradhas-MacBook-Pro-2:2.CommandLine+GCC shradhaganesh$ ./a.out
+Hello, World!
+Shradhas-MacBook-Pro-2:2.CommandLine+GCC shradhaganesh$ 
