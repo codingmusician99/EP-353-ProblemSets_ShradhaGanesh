@@ -2,7 +2,7 @@
 Problem Set 4
 
 ### Submitted by 
-Akito Van Troyer 
+Shradha Ganesh 
 
 ### For Course
 EP-353 
