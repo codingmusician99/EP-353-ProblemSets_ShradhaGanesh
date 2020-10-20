@@ -9,13 +9,11 @@ void adjustMIDIRange(char *midi);
 // Defining adjustMIDIRange
 void adjustMIDIRange(char *midi){
     if (*midi < 0){
-        int c = 0; 
-        midi = (char *) &c; 
+        *midi = 0; 
         
     }
     if (*midi > 127){
-        int d = 127;
-        midi = (char *) &d; 
+        *midi = 127; 
 
     }
 } 
