@@ -21,11 +21,14 @@ int main(){
 
     if(!snwavFile) return 1; // Checking if snwavFile opens or not
 
+    BufferSize = snwavInfo.frames; 
+    Buffer = (float *)malloc(snwavInfo.frames * sizeof(float)); 
 
     reversesnFile = sf_open("ReverseSN.wav", SFM_WRITE, &snwavInfo); 
 
     if(!reversesnFile) return 1; // Checking if reversesnFile opens or not
 
+    
     int readCount;
     float *GoodBuffer; 
     int b = 0; 
