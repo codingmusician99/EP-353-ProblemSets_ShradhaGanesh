@@ -1,4 +1,4 @@
-#Proposal - Shradha Ganesh 
+# Proposal - Shradha Ganesh 
 
 ## Title of the Project
 
