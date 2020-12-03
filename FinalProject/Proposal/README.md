@@ -2,15 +2,15 @@
 
 ## Title of the Project
 
-Vocalize -> A Vocoder plugin 
+Melodizer -> Program to make your custom-made melody
 
 ## Summary of project
 
-My project is about creating a Vocoder plugin using C programming. 
+My project is about creating a program that will print out a wav file of a user-made melody using C programming. 
 
 ## Details
 
-This vocoder will have a carrier setting and a modulator setting along with an interface for determining the bands of frequencies. The number of bands will be user-defined. It will also have a Formant stretch setting which will also be user defined. This is to change the fundamental frequency of each of the bands. There will also be an Unvoiced setting so the user can determine how much of the plosives and sibilants will be used in the vocoding. An oscillator setting will also be provided with square, sawtooth, triangle and sine waves. In addition to this a noise oscillator will also be provided. All of the settings will hopefully be user defined. 
+This program will take in 10 integer inputs from the user, between 0 and 127 corresponding to MIDI Note numbers. This will then be converted to frequencies in order to correspond it to pitch. The program will then create a melody and print it out into a wav file which can then be accessed by the user. In addition to just ordering the notes to create a melody, it will choose duration of each note, amplitude and envelope shape. It may also add some cool effects such as reverb or delay to the final file!
 
 ## Combining with other course final project? 
 
@@ -18,17 +18,17 @@ No. This will be completely an EP-353 final project
 
 ## What will be definitely accomplished within the deadline? 
 
-I will be able to get the actual programming and algorithm for the vocoding process down by the deadline. 
+I will be able to get the algorithm to make the program produce a melody based on the integer values of the user with regards to ordering the pitches. 
 
 ## What may be achieved by the deadline?
 
-I hope to try and get some of the GUI done by the deadline if I can, maybe using JUCE. 
+I hope to also integrate note duration, envelope shape and amplitude or even velocity in the melody generation. 
 
 ## What will be the BEST outcome of the final project? 
 
-The best outcome would be to have a solid program with the alogrithm and good GUI so that it can be implemented successfully by the user. 
+The best outcome would be to have all of the described elements and also integrate an effect such as delay, flanger or reverb.  
 
 ## Next Steps? 
 
-I will need to research more on the vocoder and how it has been programmed in the past. I will need to learn more about creating plugins with JUCE. I will need to learn about how to implement the splitting of the audio into frequency bands and how that can be user defined. All in all, I will need to learn how to implement all of the user defined settings and get the vocoder working properly. 
+I will need to start thinking about the algorithm for the program to generate the melody and start testing it out to see if it is indeed able to order the values and produce a wav file with the melody. I further will need to research and learn how I can integrate envelope shape, duration, amplitude/velocity etc. in the melody generation. Finally, I will need to test adding DAFx to the code. 
 
